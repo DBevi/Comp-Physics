@@ -1,2 +1,1 @@
-# ex01
-ex01 Ising Model
+Denis and Leon ex-Group
