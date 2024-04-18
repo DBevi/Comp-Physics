@@ -1,1 +1,1 @@
-Denis and Leon ex-Group
+Denis and Leon CP-Group
