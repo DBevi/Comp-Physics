@@ -6,7 +6,7 @@ include(srcdir("H_sum.jl"))
 # here the MetropolisAlgorithm is implented. The means and stds for different β values are also calculated
 
 
-
+# MetropolisAlgorithm for calculating the energy for one β
 function MetropolisAlgo(lattice, times, β)
 
     energy = Hamiltonian(lattice, J, B)
@@ -56,7 +56,7 @@ function MetropolisAlgo(lattice, times, β)
 end
 
 
-
+# function for calculating the means and stds for variable β values
 function getMeans_Energy_Spin_OverTemp(lattice, times, βs)
 
     m_means = zeros(length(βs))
